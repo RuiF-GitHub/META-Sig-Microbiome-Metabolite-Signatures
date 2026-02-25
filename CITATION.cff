@@ -1,0 +1,12 @@
+
+# Use this file to help others cite META‑Sig.
+cff-version: 1.2.0
+title: META‑Sig: Microbiome Metabolite Signatures
+authors:
+  - family-names: Ferreira
+    given-names: Rui
+    orcid: 0000-0000-0000-0000
+version: 0.1.0
+date-released: 2026-02-25
+url: https://github.com/<your-username>/META-Sig-Microbiome-Metabolite-Signatures
+message: If you use META‑Sig or this documentation, please cite this record.
