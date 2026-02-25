@@ -7,9 +7,6 @@ nav_order: 6
 
 # References
 
-List key databases, software, and papers you rely on (replace with your own):
+Pereira-Marques, J., R.M. Ferreira, and C. Figueiredo, A metatranscriptomics strategy for efficient characterization of the microbiome in human tissues with low microbial biomass. Gut Microbes, 2024. 16(1): p. 2323235.
 
-- GNPS / MASST (spectral matching)
-- QIIME 2 (microbiome processing)
-- HMDB / KEGG / MetaCyc (metabolite/pathway knowledge)
-- Lab protocols / published methods
+Portela, L., et al., A machine learning algorithm to identify hidden microbiome metabolites in the stomach. Microb Health Dis, 2024. 6: p. e1023.
