@@ -5,3 +5,11 @@ The human microbiome is increasingly recognized as a key contributor to cancer i
 
 This repository documents META‑Sig, a computational pipeline designed to attribute metabolites to microbial origin in gastric cancer tissues, enabling systematic identification of microbiome‑associated metabolite signatures in tumor samples.
 
+
+
+
+<img width="611" height="193" alt="Meta-Sig_pipeline" src="https://github.com/user-attachments/assets/5ed9bc16-4f63-41f1-bd54-fe2b217cedcf" />
+
+
+
+
