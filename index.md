@@ -1,10 +1,3 @@
-
----
-layout: default
-title: Home
-nav_order: 1
----
-
 # META‑Sig: Microbiome Metabolite Signatures
 
 Welcome! This site documents **META‑Sig**, a research workflow to attribute metabolites to **microbial origin** and summarize them as microbiome metabolite signatures.
