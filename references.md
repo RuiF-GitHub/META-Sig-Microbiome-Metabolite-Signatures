@@ -1,10 +1,3 @@
-
----
-layout: default
-title: References
-nav_order: 6
----
-
 # References
 
 Pereira-Marques, J., R.M. Ferreira, and C. Figueiredo, A metatranscriptomics strategy for efficient characterization of the microbiome in human tissues with low microbial biomass. Gut Microbes, 2024. 16(1): p. 2323235.
