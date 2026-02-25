@@ -1,45 +1,37 @@
 
 # Site settings
-# Set url/baseurl after the site is live for canonical links.
-# Example project site:
-# url: "https://<username>.github.io"
-# baseurl: "/META-Sig-Microbiome-Metabolite-Signatures"
+# Update url/baseurl after enabling Pages.
 
-# Basic metadata
-name: META‑Sig: Microbiome Metabolite Signatures
-title: META‑Sig: Microbiome Metabolite Signatures
-description: Documentation website for META‑Sig — a pipeline to attribute metabolites to microbial origin and derive robust microbial metabolite signatures.
+name: "META-Sig: Microbiome Metabolite Signatures"
+title: "META-Sig: Microbiome Metabolite Signatures"
+description: "Documentation website for META-Sig — a pipeline to attribute metabolites to microbial origin and derive robust microbial metabolite signatures."
 
 # Theme
-remote_theme: just-the-docs/just-the-docs
-color_scheme: light
-favicon_ico: /assets/favicon.ico
+remote_theme: "just-the-docs/just-the-docs"
+color_scheme: "light"
+favicon_ico: "/assets/favicon.ico"
 
 # Footer links
 aux_links:
   "GitHub Repository":
     - "https://github.com/RuiF-GitHub/META-Sig-Microbiome-Metabolite-Signatures"
-url: "https://RuiF-GitHub.github.io"
-baseurl: "/META-Sig-Microbiome-Metabolite-Signatures
 
 # Search
 search_enabled: true
 
-# Callouts (admonitions)
 just_the_docs:
   callouts:
     note:
-      title: Note
-      color: blue
+      title: "Note"
+      color: "blue"
     warning:
-      title: Warning
-      color: red
+      title: "Warning"
+      color: "red"
     tip:
-      title: Tip
-      color: green
+      title: "Tip"
+      color: "green"
 
-# Build settings
-markdown: kramdown
+markdown: "kramdown"
 kramdown:
   input: GFM
   hard_wrap: false
