@@ -18,7 +18,9 @@ favicon_ico: /assets/favicon.ico
 # Footer links
 aux_links:
   "GitHub Repository":
-    - "https://github.com/<your-username>/META-Sig-Microbiome-Metabolite-Signatures"
+    - "https://github.com/RuiF-GitHub/META-Sig-Microbiome-Metabolite-Signatures"
+url: "https://RuiF-GitHub.github.io"
+baseurl: "/META-Sig-Microbiome-Metabolite-Signatures
 
 # Search
 search_enabled: true
