@@ -1,24 +1,18 @@
 
----
-layout: default
-title: Workflow overview
-nav_order: 3
----
+
 
 # Workflow overview
 
-This page summarizes META‑Sig's end-to-end pipeline. Replace details with your implementation.
+This page summarizes META‑Sig pipeline.
 
 ## Inputs
-- Untargeted LC–MS(/MS) feature table (mz, rt, intensity)
-- Sample metadata (study design, batches, covariates)
-- (Optional) Microbiome profiling (16S/shotgun), MAGs, or functional profiles
+- Untargeted/targeted LC–MS(/MS) table (metobolites per sample)
+- Sample metadata (study design, batches, covariates) - optional
+- Microbiome metatranscriptomics profiling table (UniRef90 gene families per sample)
 
 ## Processing stages
-1. **Quality control**: missingness thresholds, blank subtraction, batch correction
-2. **Feature grouping**: adduct/fragment/isotope collapsing
-3. **Annotation & identification**: spectral library matching; in‑silico predictions where applicable
-4. **Context mapping**: pathways/ontologies (e.g., KEGG, HMDB); mapping to microbial pathways if available
+- Filter low prevelance UniRef90 gene families (<5%)
+- Filter metabolites with ambigous names
 
 ## Microbial attribution
 - **Signature-based**: presence in microbial cultures, known microbial pathways
@@ -28,7 +22,5 @@ This page summarizes META‑Sig's end-to-end pipeline. Replace details with your
 
 ## Outputs
 - Ranked candidates with:
-  - ID/annotation level
-  - Evidence sources (signature, covariation, enrichment)
-  - Confidence score
-  - Links to spectra and references
+  - A table with relative abundance of metabolites attribute to microbial orign per sample
+  - If sample metadata are provided, it produces a table with metabolite differential abundance analysis. User must set the grouping varaible.
